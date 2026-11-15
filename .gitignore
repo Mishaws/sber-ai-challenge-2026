@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets & Archives (too large for Git)
+data/
+*.zip
+*.tar
+*.tar.gz
+*.npz
+3_3_train/
+3_3_test_fin/
+train*/
+test*/
+!task1-noisy-weather/
+!task2-3d-mesh-qc/
+
+# Model Checkpoints & Artifacts
+*.pth
+*.pt
+*.onnx
+*.npy
+checkpoints/
+outputs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
